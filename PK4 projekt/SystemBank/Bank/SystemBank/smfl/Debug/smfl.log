@@ -1,0 +1,79 @@
+﻿  klasy.cpp
+  bank.cpp
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\textbox.h(54,22): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\textbox.h(78,30): warning C4018: "<=": niezgodność typu ze znakiem/bez znaku
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\textbox.h(82,35): warning C4018: ">": niezgodność typu ze znakiem/bez znaku
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\textbox.h(105,21): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(28,15): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(29,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(34,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(35,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(36,37): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(39,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(45,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(46,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(49,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(55,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(56,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  Generowanie kodu...
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QAE@PBDABVlocale@std@@@Z) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::String::String(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::locale const &)" (__imp_??0String@sf@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABVlocale@3@@Z) przywołany w funkcji "private: void __thiscall Textbox::deleteLastChar(void)" (?deleteLastChar@Textbox@@AAEXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::String::~String(void)" (__imp_??1String@sf@@QAE@XZ) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(class sf::Window const &)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@ABVWindow@2@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QAE@III@Z) przywołany w funkcji "void __cdecl `dynamic initializer for 'window''(void)" (??__Ewindow@@YAXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Window::close(void)" (__imp_?close@Window@sf@@QAEXXZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: bool __thiscall sf::Window::isOpen(void)const " (__imp_?isOpen@Window@sf@@QBE_NXZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: bool __thiscall sf::Window::pollEvent(class sf::Event &)" (__imp_?pollEvent@Window@sf@@QAE_NAAVEvent@2@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Window::display(void)" (__imp_?display@Window@sf@@QAEXXZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(float,float)" (__imp_?setPosition@Transformable@sf@@QAEXMM@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QAEXABV?$Vector2@M@2@@Z) przywołany w funkcji "public: void __thiscall Textbox::setPosition(class sf::Vector2<float>)" (?setPosition@Textbox@@QAEXV?$Vector2@M@sf@@@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: class sf::Vector2<float> const & __thiscall sf::Transformable::getPosition(void)const " (__imp_?getPosition@Transformable@sf@@QBEABV?$Vector2@M@2@XZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QAE@EEEE@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Shape::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Shape@sf@@QAEXABVColor@2@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: class sf::Rect<float> __thiscall sf::Shape::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Shape@sf@@QBE?AV?$Rect@M@2@XZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::Font::Font(void)" (__imp_??0Font@sf@@QAE@XZ) przywołany w funkcji "void __cdecl `dynamic initializer for 'font''(void)" (??__Efont@@YAXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::Font::~Font(void)" (__imp_??1Font@sf@@QAE@XZ) przywołany w funkcji "void __cdecl `dynamic atexit destructor for 'font''(void)" (??__Ffont@@YAXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: bool __thiscall sf::Font::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?loadFromFile@Font@sf@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::Vector2<float> const &)" (__imp_??0RectangleShape@sf@@QAE@ABV?$Vector2@M@1@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: virtual __thiscall sf::RectangleShape::~RectangleShape(void)" (__imp_??1RectangleShape@sf@@UAE@XZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::RectangleShape::RectangleShape(class sf::RectangleShape const &)" (__imp_??0RectangleShape@sf@@QAE@ABV01@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QAEXABVColor@2@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QAEXABVDrawable@2@ABVRenderStates@2@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QAE@VVideoMode@1@ABVString@1@IABUContextSettings@1@@Z) przywołany w funkcji "void __cdecl `dynamic initializer for 'window''(void)" (??__Ewindow@@YAXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: virtual __thiscall sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UAE@XZ) przywołany w funkcji "void __cdecl `dynamic atexit destructor for 'window''(void)" (??__Fwindow@@YAXXZ)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::Text::Text(void)" (__imp_??0Text@sf@@QAE@XZ) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Text::setString(class sf::String const &)" (__imp_?setString@Text@sf@@QAEXABVString@2@@Z) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Text::setFont(class sf::Font const &)" (__imp_?setFont@Text@sf@@QAEXABVFont@2@@Z) przywołany w funkcji "public: void __thiscall Textbox::setFont(class sf::Font &)" (?setFont@Textbox@@QAEXAAVFont@sf@@@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Text::setCharacterSize(unsigned int)" (__imp_?setCharacterSize@Text@sf@@QAEXI@Z) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: void __thiscall sf::Text::setFillColor(class sf::Color const &)" (__imp_?setFillColor@Text@sf@@QAEXABVColor@2@@Z) przywołany w funkcji "public: __thiscall Textbox::Textbox(int,class sf::Color,bool)" (??0Textbox@@QAE@HVColor@sf@@_N@Z)
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: class sf::Rect<float> __thiscall sf::Text::getLocalBounds(void)const " (__imp_?getLocalBounds@Text@sf@@QBE?AV?$Rect@M@2@XZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: class sf::Rect<float> __thiscall sf::Text::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Text@sf@@QBE?AV?$Rect@M@2@XZ) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: virtual __thiscall sf::Text::~Text(void)" (__imp_??1Text@sf@@UAE@XZ) przywołany w funkcji __unwindfunclet$??0Textbox@@QAE@HVColor@sf@@_N@Z$0
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: __thiscall sf::Text::Text(class sf::Text const &)" (__imp_??0Text@sf@@QAE@ABV01@@Z) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: static class sf::Color const sf::Color::Black" (__imp_?Black@Color@sf@@2V12@B) przywołany w funkcji _main
+bank.obj : error LNK2019: nierozpoznany symbol zewnętrzny "__declspec(dllimport) public: static class sf::Color const sf::Color::White" (__imp_?White@Color@sf@@2V12@B) przywołany w funkcji _main
+C:\Program Files\SFML-2.5.1\lib\sfml-system.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+C:\Program Files\SFML-2.5.1\lib\sfml-window.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+C:\Program Files\SFML-2.5.1\lib\sfml-graphics.lib : warning LNK4272: wystąpił konflikt typu maszyny biblioteki „x64” z typem maszyny docelowej „x86”
+C:\notatki-pulpit\Pulpit\SystemBank\Debug\System-bankowy.exe : fatal error LNK1120: liczba nierozpoznanych elementów zewnętrznych: 37

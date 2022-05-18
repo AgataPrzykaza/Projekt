@@ -1,0 +1,69 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Katalog pośredni (x64\Release\) zawiera pliki udostępnione z innego projektu (smfl.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  klasy.cpp
+  bank.cpp
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(43,15): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(44,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(49,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(50,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(51,52): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(56,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(57,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(58,64): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(61,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(67,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(68,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(73,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(80,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(81,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(201,46): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(202,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(208,49): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(209,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(210,48): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(211,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(212,55): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(291,46): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(292,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  konto-osoba.cpp
+  Trwa generowanie kodu
+  20 of 264 functions ( 7.6%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  smfl.vcxproj -> C:\notatki-pulpit\Pulpit\SystemBank\x64\Release\System-bankowy.exe
