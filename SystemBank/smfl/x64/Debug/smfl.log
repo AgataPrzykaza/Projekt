@@ -1,0 +1,63 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Katalog pośredni (x64\Debug\) zawiera pliki udostępnione z innego projektu (smfl.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
+  bank.cpp
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(29,23): warning C4129: "P": nierozpoznany znak sekwencji ucieczki
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(29,23): warning C4129: "S": nierozpoznany znak sekwencji ucieczki
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(29,23): warning C4129: "s": nierozpoznany znak sekwencji ucieczki
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(32,15): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(33,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(38,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(39,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(40,52): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(45,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(46,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(47,64): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(50,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(56,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(57,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(62,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(69,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(70,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(83,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(86,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(177,46): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(178,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(180,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(195,46): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\bank.cpp(196,45): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  smfl.vcxproj -> C:\notatki-pulpit\Pulpit\SystemBank\x64\Debug\System-bankowy.exe
