@@ -85,7 +85,8 @@ public:
 
 	//kredyt
 	string okres;
-	
+
+	string napiskredytu = "";
 
 	vector<bool> statusPolTransakcja;
 		

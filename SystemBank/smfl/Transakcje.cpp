@@ -106,7 +106,7 @@ string Przelew::GiveTransakcja()
 
 string Przelew::Show()
 {
-	string slowa= "Typ: " + typ+ " Data: " + data + " Operacja: " + to_string(kwota)
+	string slowa= "Typ: " + typ+ " Data: " + data + " Operacja: " + Round2(kwota)
 		+ " Odbiorca: "+to_string(nr_odbiorcy)
 		+" Tytul: "+tytul;
 	return slowa;
@@ -171,7 +171,7 @@ ostream& operator<<(ostream& s, const Wyplata& w)
 
 string Wyplata::Show()
 {
-	string slowa = "Typ: " + typ+ " Data: " + data + " Operacja: " + to_string(kwota)
+	string slowa = "Typ: " + typ+ " Data: " + data + " Operacja: " + Round2(kwota)
 		+ " Tytul: " + tytul ;
 	return slowa;
 }

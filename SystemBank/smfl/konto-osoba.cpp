@@ -108,7 +108,7 @@ Osoba Osoba::operator=(const Osoba& o)
 
 string Osoba::Show()
 {
-	return to_string(idOsoby) + " " + imie + " " + nazwisko + " " + mail + " " + haslo + " " + pesel + " " +
+	return to_string(idOsoby) + " " + imie + " " + nazwisko + " Mail:" + mail + " Halso:" + haslo + " Pesel:" + pesel + " Adres:" +
 		adres + " " + nr_dowodu;
 }
 istream& operator>>(istream& s, Osoba& o)
@@ -191,8 +191,14 @@ ostream& operator<<(ostream& s, const Konto& k)
 
 string Konto::Show()
 {
-	return to_string(idOsoby) + " " + imie + " " + nazwisko + +" " + to_string(nr_konta)
-		+ " " + to_string(saldo) + " " + typ;
+	string t;
+	if (typ == "I")
+		t = "indywidualne";
+	else
+		t = "firmowe";
+
+	return to_string(idOsoby) + " " + imie + " " + nazwisko + +" Nr konta:" + to_string(nr_konta)
+		+ " Saldo:" + Round2(saldo) + "zl " + t;
 }
 double Konto::GetSaldo()
 {
@@ -240,7 +246,7 @@ string Konto::GiveKontoInString()
 		t = "indywidualne";
 	else
 		t = "firmowe";
-	return " " + to_string(nr_konta) + " saldo: " + to_string(saldo) + " typ: " + t;
+	return " " + to_string(nr_konta) + " saldo: " + Round2(saldo) + "zl typ: " + t;
 }
 
 void Konto::Operacja(int money)

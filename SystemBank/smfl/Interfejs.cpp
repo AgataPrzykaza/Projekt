@@ -77,7 +77,7 @@ void Okno::SetTexts()
     sf::RectangleShape pole(sf::Vector2f(500, 70));
     poleI = pole;
     poleI.setPosition(width / 2 - 500 / 2, 300);
-    imieT = Pole("ffffff", poleI.getPosition().x, poleI.getPosition().y);
+    imieT = Pole("", poleI.getPosition().x, poleI.getPosition().y);
 
     poleN = pole;
     poleMR = pole;
@@ -122,11 +122,11 @@ void Okno::SetTexts()
 
      poleStareHaslo = pole;
      poleStareHaslo.setPosition(width / 2 - 500 / 2, 400);
-     starehasloT = Pole("stare", poleStareHaslo.getPosition().x, poleStareHaslo.getPosition().y);
+     starehasloT = Pole("", poleStareHaslo.getPosition().x, poleStareHaslo.getPosition().y);
 
      poleNoweHalso = pole;
      poleNoweHalso.setPosition(width / 2 - 500 / 2, 550);
-     nowehasloT = Pole("stare", poleNoweHalso.getPosition().x, poleNoweHalso.getPosition().y);
+     nowehasloT = Pole("nowe", poleNoweHalso.getPosition().x, poleNoweHalso.getPosition().y);
 
      //Transakcja
 
@@ -390,7 +390,7 @@ void Okno::Panel2(sf::RenderWindow& window, sf::Event event, Menu &menu, int& pa
     
     menu.GetBaza();
     bool NewKonto = false;
-    alert.setPosition(1900, 300);
+    alert.setPosition(1280, 750);
     window.draw(alert);
     if (event.type == sf::Event::MouseButtonPressed) //czy myszka i wcisnieta
     {
@@ -731,6 +731,11 @@ void Okno::Panel3Transakcja(sf::RenderWindow& window, sf::Event event, Menu& men
                     menu.AktualizujSaldo(stoi(kwota));
                     menu.GetBaza();
                     ZerujTransakcje();
+
+                    kwotaT.setString("");
+                    tytulT.setString("");
+                    okresT.setString("");
+                    odbiorcaT.setString("");
                 }
             }
 
@@ -749,6 +754,11 @@ void Okno::Panel3Transakcja(sf::RenderWindow& window, sf::Event event, Menu& men
                     menu.AktualizujSaldo(-stoi(kwota));
                     menu.GetBaza();
                     ZerujTransakcje();
+
+                    kwotaT.setString("");
+                    tytulT.setString("");
+                    okresT.setString("");
+                    odbiorcaT.setString("");
                 }
             }
             menu.GetBaza();
@@ -770,17 +780,44 @@ void Okno::Panel3Transakcja(sf::RenderWindow& window, sf::Event event, Menu& men
                     menu.AktualizujDlaKontaPrzelew(stoi(nr_odbiorcy), stoi(kwota));
                     cout << "udalo sie";
                     ZerujTransakcje();
+
+                    kwotaT.setString("");
+                    tytulT.setString("");
+                    okresT.setString("");
+                    odbiorcaT.setString("");
+
+
                 }
                 if (menu.operacja->Nazwa() == "Kredyt" && CzyLiczba(kwota) && CzyTekst(tytul) && CzyLiczba(okres))
                 {
-
+                    
 
                     stringstream ss(to_string(menu.WybraneKonto.GetNrKonta()) + " " + GetDataNow() + " " + okres + " " + kwota + " " + to_string(Rata(kwota, okres)) + " " + tytul + " " + "kredyt");
-                    Kredyt* k = new Kredyt;
-                    ss >> *k;
-                    menu.transakcje.push_back(k);
-                    menu.AktualizujSaldo(stoi(kwota));
-                    cout << "udalo sie";
+                    
+                    if (menu.WybraneKonto.GetSaldo() >= Rata(kwota, okres)) {
+                        Kredyt* k = new Kredyt;
+                        ss >> *k;
+                        menu.transakcje.push_back(k);
+                        menu.AktualizujSaldo(stoi(kwota));
+                        cout << "udalo sie" << endl;
+                        napiskredytu = "Udalo Ci sie wziac kredyt";
+                        ZerujTransakcje();
+                        kwotaT.setString("");
+                        tytulT.setString("");
+                        okresT.setString("");
+                        odbiorcaT.setString("");
+                    }
+                    else {
+                        cout << "Nie mozesz wziac kredytu saldo jest mniejsze od raty!!" << endl;
+                        napiskredytu = "Nie mozesz wziac kredytu saldo jest mniejsze od raty!!!";
+                        kwotaT.setString("");
+                        tytulT.setString("");
+                        okresT.setString("");
+                        odbiorcaT.setString("");
+                    }
+                    
+    
+
                 }
                 menu.GetBaza();
             }
@@ -831,6 +868,13 @@ void Okno::Panel3Transakcja(sf::RenderWindow& window, sf::Event event, Menu& men
             panel = 4;
             alert.setString("");
             menu.GetBaza();
+            ZerujTransakcje();
+            kwotaT.setString("");
+            tytulT.setString("");
+            okresT.setString("");
+            odbiorcaT.setString("");
+
+            napiskredytu = "";
         }
     }
 
@@ -838,6 +882,7 @@ void Okno::Panel3Transakcja(sf::RenderWindow& window, sf::Event event, Menu& men
     window.draw(CofnijBtn);
     window.draw(text);
     window.draw(alert);
+    window.draw(Napis(napiskredytu, 60, width / 2 - 700, 1200));
     if (menu.operacja->Nazwa() != "Wyplata/Wplata")
     {
         window.draw(Btn);
@@ -899,11 +944,15 @@ void Okno::Panel5ZmianaHasla(sf::RenderWindow& window, sf::Event event, Menu& me
             {
                 menu.logged.SetHaslo(noweHaslo);
                 menu.ChangePassword(noweHaslo);
+
+          
             }
             else
             {
                 alert.setString("Zle haslo wpisane");
                 alert.setPosition(400, 700);
+
+              
             }
                 cout << "zmiana" << endl;
         }
@@ -922,7 +971,9 @@ void Okno::Panel5ZmianaHasla(sf::RenderWindow& window, sf::Event event, Menu& me
         {
             panel = 2;
             alert.setString("");
-            
+            noweHaslo, stareHaslo = "";
+            nowehasloT.setString("");
+            starehasloT.setString("");
         }
     }
     window.clear(sf::Color(230, 165, 190));
@@ -951,8 +1002,8 @@ void Okno::Panel6Admin(sf::RenderWindow& window, sf::Event event, Menu& menu, in
     window.draw(Napis("Lista Klientow", 50, 70, 250));
     
 
-    Btn = Napis("Usun uzytkownika", 50, 1800, 500);
-    Btn2 = Napis("Znajdz konto", 50, 1800, 650);
+    Btn = Napis("Usun uzytkownika", 50, 1800, 1100);
+    Btn2 = Napis("Znajdz konto", 50, 1800, 1250);
     Btn3 = Napis("Modyfikuj uzytkownika", 50, 1800, 800);
     Btn4 = Napis("Klienci wszyscy", 50, 1800, 950);
     window.draw(Btn);
