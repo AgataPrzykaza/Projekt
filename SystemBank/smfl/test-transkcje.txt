@@ -1,3 +1,0 @@
-789 -200 buty przelew
-789 300 w wplata
-23457 -1000 dom wyplata

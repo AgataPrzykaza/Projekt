@@ -156,12 +156,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="klasy.cpp" />
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Interfejs.cpp" />
+    <ClCompile Include="menu.cpp" />
     <ClCompile Include="bank.cpp" />
     <ClCompile Include="konto-osoba.cpp" />
+    <ClCompile Include="funkcje.ixx" />
+    <ClCompile Include="Transakcje.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="klasy.h" />
+    <ClInclude Include="source.h" />
+    <ClInclude Include="SFML.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

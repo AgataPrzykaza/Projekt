@@ -8,6 +8,109 @@ Osoba::Osoba() :idOsoby(0),imie(""), nazwisko(""), mail(""), haslo(""), pesel(""
 Osoba::Osoba(const Osoba& o) :idOsoby(o.idOsoby),imie(o.imie), nazwisko(o.nazwisko), mail(o.mail), haslo(o.haslo), pesel(o.pesel),
 adres(o.adres), nr_dowodu(o.nr_dowodu) {};
 
+
+int Osoba::GetIdOsoby()
+{
+	return idOsoby;
+}
+
+void Osoba::SetIdOsoby(int id)
+{
+	idOsoby = id;
+}
+
+
+string Osoba::GetImie()
+{
+	return imie;
+}
+void Osoba::SetImie(string i)
+{
+	imie = i;
+	return;
+}
+
+string Osoba::GetNazwisko()			//ok
+{
+	return nazwisko;
+}
+
+
+void Osoba::SetNazwisko(string i)
+{
+	nazwisko = i;
+	return;
+}
+
+
+string Osoba::GetMail()			//ok
+{
+	return mail;
+}
+
+void Osoba::SetMail(string i)
+{
+	mail = i;
+	return;
+}
+string Osoba::GetHaslo()			//ok
+{
+	return haslo;
+}
+void Osoba::SetHaslo(string i)
+{
+	haslo = i;
+	return;
+}
+
+string Osoba::GetPesel()
+{
+	return pesel;
+}
+
+
+void Osoba::SetPesel(string p)
+{
+	pesel = p;
+}
+
+string Osoba::GetAdres()
+{
+	return adres;
+}
+void Osoba::SetAdres(string a)
+{
+	adres = a;
+}
+
+string Osoba::GetNrDowodu()
+{
+	return nr_dowodu;
+}
+
+void Osoba::SetNrDowodu(string nr)
+{
+	nr_dowodu = nr;
+}
+
+Osoba Osoba::operator=(const Osoba& o)
+{
+	idOsoby = o.idOsoby;
+	imie = o.imie;
+	nazwisko = o.nazwisko;
+	mail = o.mail;
+	haslo = o.haslo;
+	pesel = o.pesel;
+	adres = o.adres;
+	nr_dowodu = o.nr_dowodu;
+	return *this;
+}
+
+string Osoba::Show()
+{
+	return to_string(idOsoby) + " " + imie + " " + nazwisko + " " + mail + " " + haslo + " " + pesel + " " +
+		adres + " " + nr_dowodu;
+}
 istream& operator>>(istream& s, Osoba& o)
 {
 	regex slowa("[^\\s]+");
@@ -84,60 +187,18 @@ ostream& operator<<(ostream& s, const Konto& k)
 	s <<k.idOsoby << " " << k.nr_konta << " " << k.saldo << " " << k.typ;
 	return s;
 }
-string Konto::GetAdres()
-{
-	return adres;
-}
-int Konto::GetIdOsoby()
-{
-	return idOsoby;
-}
-void Konto::SetIdOsoby(int id)
-{
-	idOsoby = id;
-}
-string Konto::GetImie()			//ok
-{
-	return imie;
-}
-string Konto::GetNazwisko()			//ok
-{
-	return nazwisko;
-}
-void Konto::SetImie(string i)
-{
-	imie = i;
-	return;
-}
-void Konto::SetNazwisko(string i)
-{
-	nazwisko = i;
-	return;
-}
-string Konto::GetMail()			//ok
-{
-	return mail;
-}
-string Konto::GetHaslo()			//ok
-{
-	return haslo;
-}
 
-void Konto::SetMail(string i)
+
+string Konto::Show()
 {
-	mail = i;
-	return;
-}
-void Konto::SetHaslo(string i)
-{
-	haslo = i;
-	return;
+	return to_string(idOsoby) + " " + imie + " " + nazwisko + +" " + to_string(nr_konta)
+		+ " " + to_string(saldo) + " " + typ;
 }
 double Konto::GetSaldo()
 {
 	return saldo;
 }
-void Konto::ChangeSaldo(double kwota)
+void Konto::SetSaldo(double kwota)
 {
 	saldo = kwota;
 }
@@ -157,72 +218,32 @@ void Konto::SetNrKonta(int nr)
 {
 	nr_konta = nr;
 }
-void Konto::SetPesel(string p)
-{
-	pesel = p;
-}
-string Konto::GetPesel()
-{
-	return pesel;
-}
-
-void Konto::SetNrDowodu(string nr)
-{
-	nr_dowodu = nr;
-}
-string Konto::GetNrDowodu()
-{
-	return nr_dowodu;
-}
 
 
-//-----------------Transakcja-----------
-
-Transakcja::Transakcja() :data(""), kwota(0), tytul(""), typ(""){};
-Transakcja::Transakcja(string data, double kwota, string tytul, string typ) :
-	data(data), kwota(kwota), tytul(tytul), typ(typ) {};
-Transakcja::Transakcja(const Transakcja& t) :data(t.data), kwota(t.kwota), tytul(t.tytul), typ(t.typ) {};
-
-string Transakcja::GetData()
+void Konto::SetOsoba(Osoba o)
 {
-	return data;
-}
-void Transakcja::SetData(string d)
-{
-	data = d;
-}
-double Transakcja::GetKwota()
-{
-	return kwota;
-}
-void Transakcja::SetKwota(double k)
-{
-	kwota = k;
-}
-
-string Transakcja::GetTytul()
-{
-	return tytul;
-}
-void Transakcja::SetTytul(string t)
-{
-	tytul = t;
-}
-
-string Transakcja::GetTyp()
-{
-	return typ;
-}
-
-void Transakcja::SetTyp(string t)
-{
-	typ = t;
-}
+	SetImie(o.GetImie());
+	SetNazwisko(o.GetNazwisko());
+	SetMail(o.GetMail());
+	SetHaslo(o.GetHaslo());
+	SetPesel(o.GetPesel());
+	SetAdres(o.GetAdres());
+	SetNrDowodu(o.GetNrDowodu());
 
 
-//-----------------Przelew-----------
-Przelew::Przelew() :nr_odbiorcy(0), Transakcja() {};
-Przelew::Przelew(int nr, Transakcja t) :nr_odbiorcy(nr), Transakcja(t) {};
+}
 
-//-----------------Wyplata-----------
-Wyplata::Wyplata() :Transakcja() {};
+string Konto::GiveKontoInString()
+{
+	string t;
+	if (typ == "I")
+		t = "indywidualne";
+	else
+		t = "firmowe";
+	return " " + to_string(nr_konta) + " saldo: " + to_string(saldo) + " typ: " + t;
+}
+
+void Konto::Operacja(int money)
+{
+	saldo = saldo + money;
+}

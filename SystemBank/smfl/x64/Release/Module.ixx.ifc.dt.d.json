@@ -1,0 +1,10 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\notatki-pulpit\\pulpit\\systembank\\smfl\\module.ixx",
+        "ProvidedModule": "Module",
+        "Includes": [],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,2 +1,3 @@
-789 Ala Nowak ala@gmail.com ala123 21312312312 ul.Mala 12 AGC12341
-23457 Adam Kot ad@onet.com a345 34534534534 ul.Polska 1 AIJ123321
+789 Ala Nowak ala@wp.pl ala123 21312312312 ul.Mala 12 AGC12341
+23457 Adam Kot ad@onet.com adam123 34534534534 ul.Polska 1 AIJ123321
+23458 Albert Man albert@wp.pl albert123 123123345 ul.Ala 3 ADC234234

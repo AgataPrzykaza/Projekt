@@ -1,8 +1,309 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: Katalog pośredni (x64\Release\) zawiera pliki udostępnione z innego projektu (smfl.vcxproj). Może to spowodować niepoprawne zachowanie podczas oczyszczania i ponownej kompilacji.
-  klasy.cpp
+  Trwa skanowanie źródeł pod kątem zależności modułów...
+  Interfejs.cpp
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(21,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(22,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(34,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(35,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(38,19): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(39,53): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(43,25): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(45,65): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(49,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(54,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(55,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(57,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(61,16): warning C4244: "inicjowanie": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(62,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(79,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(80,70): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(80,47): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(89,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(90,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(91,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(92,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(93,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(94,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(96,69): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(96,46): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(97,67): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(97,43): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(98,68): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(98,44): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(99,66): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(99,43): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(100,66): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(100,43): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(101,68): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(101,45): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(107,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(108,65): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(108,41): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(111,40): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(112,80): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(112,51): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(124,43): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(125,94): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(125,62): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(128,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(129,91): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(129,60): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(143,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(144,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(145,41): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(146,38): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(149,79): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(149,52): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(150,79): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(150,52): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(151,91): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(151,61): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(152,79): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(152,52): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(157,40): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(158,87): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(158,58): warning C4244: "argument": konwersja z "const T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(173,25): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(173,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(185,36): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(185,28): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(287,35): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(288,34): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(305,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(602,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(603,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(611,88): warning C4244: "argument": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(616,101): warning C4244: "argument": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(620,97): warning C4244: "argument": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(640,91): warning C4244: "argument": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(652,35): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(694,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(695,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(881,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(882,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(947,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(948,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1030,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1031,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1075,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1076,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1118,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1119,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1168,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1169,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1242,34): warning C4244: "=": konwersja z "T" do "int", możliwa utrata danych
+          with
+          [
+              T=float
+          ]
+C:\notatki-pulpit\Pulpit\SystemBank\smfl\Interfejs.cpp(1243,33): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
   Trwa generowanie kodu
-  3 of 1286 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+  11 of 2097 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    5 functions had inline decision re-evaluated but remain unchanged
+    20 functions had inline decision re-evaluated but remain unchanged
   Zakończono generowanie kodu
   smfl.vcxproj -> C:\notatki-pulpit\Pulpit\SystemBank\x64\Release\System-bankowy.exe

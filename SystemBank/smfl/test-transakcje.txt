@@ -1,0 +1,3 @@
+1231378 1233333 10.01.2012 -200 buty przelew
+1231378 12.02.2011 300 w wplata/wyplata
+1233333 12.03.2011 -1000 dom wplata/wyplata
